@@ -108,11 +108,13 @@ body {
   align-items: center;
   padding: 50px 7% 0;
 }
-.home-content {
+.home-content .home-text {
   background-color: hsla(0, 0%, 92%, 0.5);
   border-radius: 30px;
+}
+.home-content {
+  z-index: 5;
   max-width: 700px;
-  z-index: 2;
 }
 
 .home-content h1 {
