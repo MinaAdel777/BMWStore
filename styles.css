@@ -60,6 +60,7 @@ body {
   opacity: 0;
   animation: slidetop 0.6s ease forwards;
   animation-delay: calc(0.2s * var(--i));
+  z-index: 3;
 }
 
 .navbar a:hover,
@@ -111,7 +112,7 @@ body {
   background-color: hsla(0, 0%, 92%, 0.5);
   border-radius: 30px;
   max-width: 700px;
-  z-index: 101;
+  z-index: 2;
 }
 
 .home-content h1 {
@@ -263,7 +264,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px 30px; /* Spacing between links */
+    padding: 25px 30px;
     margin: 10px 0;
     width: 400px;
     height: 40px;
