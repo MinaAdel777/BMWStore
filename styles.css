@@ -65,7 +65,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-  color: #07a4ff;
+  color: #006dac;
 }
 
 .social-media {
@@ -214,7 +214,7 @@ body {
   color: #fff; /* Change link color on hover for emphasis */
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 768px) {
   .header {
     padding: 15px 4%;
     background: transparent;
@@ -227,7 +227,9 @@ body {
     color: #222;
   }
   .logo {
-    margin: 15px 0;
+    margin: 15px 10px 15px 0;
+    font-size: 22px;
+    font-weight: 500;
   }
   .header .menu-social {
     display: flex;
@@ -241,7 +243,7 @@ body {
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
-    width: 120px;
+    width: 100px;
     height: 40px;
   }
   .social-media a:hover {
@@ -288,6 +290,27 @@ body {
   }
   .home {
     padding: 0px 4% 0;
+  }
+
+  .home-content h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .home-content h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #07a4ff;
+  }
+
+  .home-content p {
+    font-size: 14px;
+    margin: 15px 0 30px;
+  }
+  .btn {
+    padding: 10px 20px;
+
+    font-size: 14px;
   }
 }
 
