@@ -312,6 +312,10 @@ body {
 
     font-size: 14px;
   }
+  .footer {
+    padding: 7px 15px;
+    font-size: 12px;
+  }
 }
 
 @keyframes slideright {
